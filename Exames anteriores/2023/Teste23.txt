@@ -1,0 +1,57 @@
+Porque é que é q Entidade raiz é confiavel.
+Resposta: Pq confias que é confiavel
+
+Raid 1 perde info a partir de 1 disco
+Auntenticacao mutua é quando cada um envia o NONCE, sem pin (qlq cena chave privada)
+Ass Digital (nao é a identidade da pessoa q envia) é a identidade de quem produz o certificado
+Desvantagem do WEP: não ha diferenciacao de chaves
+
+4 way hand shake, meteu que era troca de msg cript entre authenticador e suplicante
+
+OSCP
+Resp: Localizacao de ...
+Nao é: Requerer a revogacao do certificado
+
+Autenticacao
+Resp: Provar que a identidade com q estas a comm tem um determinado objeto, conhecimento e nao sei que. 
+
+raid 0+1 e raid 1 têm o mesmo desperdicio 
+Não existe cifras por blocos usando cifras continuas
+O desafio resposta obriga a que comuniquem mais que uma vez
+fragilidade do WEP é IV
+CRC32 no WEP é so na carga util
+Qual é a propriedade generica dos metodos de autenticacao:
+a) Potencia
+b) Confianca CORRETA
+c) cifra
+d) confusao
+
+O diffie e helman é robusto contra atacantes passivos
+WPA é o padrao 802.1X, manda com o caralho o SKA e WEPS E AFINS
+O que se entende pela cadeia de certificacao:
+Todos os certificados que o user precisa de seguir ate chegar a um confiavel
+
+Pq é q uma certificadora é confiavel: Pq confias nela
+Assinatura do doc é de quem a cria
+
+One time password:
+a) Requerem sempre disp adicional X
+b) Podem utilziar com desafio resposta para a chave unica CORRETA
+
+Auth com CC:
+Usa o pin como chave privada X
+recebe o nonce, cifra com chave privada e o outro atraves da chave publica vai ver CORRETO
+
+Meet in the middle é diferente de Man in the middle
+Meet in the middle é um ataque em que se caminha nos dois sentidos até se chegar ao encontro no meio.
+RESPOSTA: Permite encontrar a chave de cifra dupla com dificuldade inferior a esperada
+
+Tendo em conta o período de validade de um certificado:
+Resp: Serve para LIMITAR no tempo o uso da correspondente chave privada
+
+Autenticação de utentes sistema Linux:
+Resp: O administrador pode alterar o metodo de armazenamento das credenciais
+
+Relativamente à autenticação do SSH
+PODE SER VULNERAVEL A ATAQUES DE INTERPOSIÇÂO, se estabelecermos confiança na chave publica errada.
+Resp Correta: Autenticação dos clientes é realizada no ambito de uma autenticacao segura
